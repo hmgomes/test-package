@@ -7,6 +7,8 @@ organization := "hmgomes"
 
 scalaVersion := "2.11.8"
 
+crossPaths := false  // suppress the scala version number suffix on artifacts
+
 sparkVersion := "2.3.2"
 
 spName := "hmgomes/test-package"
