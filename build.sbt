@@ -1,6 +1,6 @@
-name := "testNamePkg"
+name := "test-package"
 
-organization := "noorg"
+organization := "hmgomes"
 
 // Your sbt build file. Guides on how to write one can be found at
 // http://www.scala-sbt.org/0.13/docs/index.html
@@ -9,7 +9,7 @@ scalaVersion := "2.11.8"
 
 sparkVersion := "2.3.2"
 
-spName := "noorg/testNamePkg"
+spName := "hmgomes/test-package"
 
 spShortDescription := "Testing spark-packages publishing, please ignore"
 
