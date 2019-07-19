@@ -13,6 +13,8 @@ spName := "noorg/testNamePkg"
 
 spShortDescription := "Testing spark-packages publishing, please ignore"
 
+spDescription := "This is a test package, please ignore this package"
+
 // Don't forget to set the version
 version := "0.0.1"
 
