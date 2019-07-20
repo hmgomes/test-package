@@ -34,9 +34,9 @@ sparkComponents ++= Seq("streaming")
 // uncomment and change the value below to change the directory where your zip artifact will be created
 spDistDirectory := target.value
 
-libraryDependencies += "org.apache.spark" % "spark-streaming-kafka_2.10" % "1.6.3"
+// libraryDependencies += "org.apache.spark" % "spark-streaming-kafka_2.10" % "1.6.3"
 
-libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.1.3" % "test"
+// libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.1.3" % "test"
 
 // add any Spark Package dependencies using spDependencies.
 // e.g. spDependencies += "databricks/spark-avro:0.1"
